@@ -4,6 +4,10 @@
 
 Please consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.
 
+**About this fork:**
+
+The original `utils.js` use `lazy-cache` to wrap `require` function. However, some bundle tools will convert `require` statement to ES6 `import`, which may cause problems. This fork modified `utils.js` file, make it require normally.
+
 - [Highlights](#highlights)
 - [Usage](#usage)
 - [API](#api)
